@@ -10,7 +10,7 @@ Example for:
   * UIImagePickerController to select photo from photo library
   * PHPhotoLibrary.requestAuthorization for requesting access from user to the iOS device's photo library
   * MapKit framework with pin, compass and scale
-  * Auto-Layout Constraints using
+  * Auto-Layout Constraints
 
 ![app](https://user-images.githubusercontent.com/1095864/35654942-14801a2e-06b5-11e8-9f0f-41607658c849.png)
 
