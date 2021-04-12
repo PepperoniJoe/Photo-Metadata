@@ -46,9 +46,12 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     
     //MARK: Open image picker to select photo
     func pickPhotoFromLibrary() {
-        imagePicker.allowsEditing = false
-        imagePicker.sourceType    = .photoLibrary
-        present(imagePicker, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            self.imagePicker.allowsEditing = false
+            self.imagePicker.sourceType    = .photoLibrary
+            self.present(self.imagePicker, animated: true, completion: nil)
+        }
+
     }
 } // end of ViewController
 
